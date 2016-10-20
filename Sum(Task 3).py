@@ -1,10 +1,7 @@
-x = 3
+# Write two numbers and dispaly their sum
+x = int # Using "int" I have turned x and y into integers
 x = int(input("Write a number: "))
-y = 5
+y = int
 y = int(input("Write a second number: "))
-sum = 3 + 5
+sum = x + y
 print("The numbers add up to",sum)
-
-
-
-
