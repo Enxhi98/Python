@@ -5,18 +5,9 @@ class Student:
         self.no = no
         self.course = course
 
-    def showDetails(self):
-        print("\nFirst name:" , self.name)
-        print("\Last name:" , self.lastname)
-        print("\Student number:" , self.no)
-        print("\Course:" , self.course)
-
-
-    
 s = Student("Enxhi")
-print(s.name)
-print(s.lastname)
-print(s.no)
-print(s.course)
-
+print("First name:" , s.name)
+print("Last name:", s.lastname)
+print("Student number/ID:", s.no)
+print("Course:" , s.course)
 
