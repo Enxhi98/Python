@@ -5,3 +5,4 @@ def main():
         print("Result is:" , mystery(2,3))
 
 main()
+
